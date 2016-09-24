@@ -1,0 +1,19 @@
+{
+  "name": "cat-bot",
+  "version": "1.0.0",
+  "description": "A catbot for messenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Lo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cat-facts": "^1.0.2",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "node-wit": "^3.3.2",
+    "request": "^2.72.0"
+  }
+}
