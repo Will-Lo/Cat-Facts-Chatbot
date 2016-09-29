@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const request = require('request');
 const app = express();
 const catFacts = require('cat-facts');
-const token = "EAAWcSPE8EKsBAE6Al4gydYltgID5u1fnEZCKZAxtWc5sOTYAau44zPCGx7lV3tTlzz8L1a8CR15RcupRpZCtUfwTwTkwoOKPYAZBSYW9YYqZB915acDmIluFZBgeT9SN4Du4YWJibdixb712vaQO5AubBzjNlcyF0ZBSSg0MluPTwZDZD";
 const Wit = require('node-wit').Wit;
 const wit_token = 'RJ3JZM5PJP56CEXGNIQPEWB2LSIWAJDL';
 const verify_token = 'chatbot232';
