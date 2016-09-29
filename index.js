@@ -5,9 +5,7 @@ const request = require('request');
 const app = express();
 const catFacts = require('cat-facts');
 const Wit = require('node-wit').Wit;
-const wit_token = 'RJ3JZM5PJP56CEXGNIQPEWB2LSIWAJDL';
 const verify_token = 'chatbot232';
-const fb_page_id = '1537899319849708'
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.listen((process.env.PORT || 3000));
